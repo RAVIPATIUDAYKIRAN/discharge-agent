@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+.env
+
+# Outputs
+outputs/
+logs/
+*.log
+
+# Data
+data/*.pdf
+data/*.json
+
+# Vector DB
+chroma_db/
+faiss_index/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
